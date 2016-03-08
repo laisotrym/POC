@@ -42,7 +42,8 @@ public class Tower {
     }
     
     //--2: middle
-    System.out.print(middleNr);
+    int n = middleNr%10;
+    System.out.print(n);
     
     //--3: build right
     for (int k = middleNr-1; k >= floor; k--) {
